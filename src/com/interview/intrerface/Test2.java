@@ -39,11 +39,11 @@ package com.interview.intrerface;
 		 System.out.println("constructor Child2");
 	 }
 	 public void run() {
-			System.out.println(" Child---- Run");
+			System.out.println(" Child2---- Run");
 			super.run();
 		}
 		public void walk() {
-			System.out.println(" Child--- walk");
+			System.out.println(" Child2--- walk");
 			super.walk();
 		}
 	}
